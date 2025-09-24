@@ -1,0 +1,114 @@
+
+    h1{ 
+        padding: 10px;
+        font-weight: bolder;
+    }
+
+   h2{
+        padding: 10px;
+        font-weight: bolder;
+    }
+    .collapse.navbar-collapse {
+        text-align: right;
+        padding: 10px;
+        font-size: larger;
+        font-weight: bolder;
+        position:absolute;
+        right: 0;
+        left: auto;
+        padding: 50px;
+
+    }
+
+    .dropdown-menu{
+        padding: 10px;
+        border: none;
+        background-color: black;
+        text-decoration: none;
+        
+    }
+
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+    }
+
+.stats-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+    margin: 40px 0;
+    background-color: rgb(235, 235, 227);
+    padding: 50px;
+}
+.stat-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
+.stat-value {
+  font-size: 2em;
+  font-weight: 700;
+  color: #d32f2f;
+}
+.stat-label {
+  font-size: 1em;
+  color: #888;
+}
+
+.E-mail{
+    text-align: center;
+    margin: 20px 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(10, 10, 10);
+    padding: 9.5px 300px;
+}
+footer {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+footer p {
+    color: white;
+    font-size: 1.2em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.sticker{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #d32f2f;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
